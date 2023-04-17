@@ -42,3 +42,16 @@ for (let contatore = 0; contatore < 100; contatore++) {
 }
 
 console.log( contentitore.innerHTML );
+
+// for (let contatore = 100; contatore > 0; contatore--) {
+
+//     let numero = contatore * 3; //così 1 diventa 3, e 100 diventa 300
+
+//     // contentitore.innerHTML = contentitore.innerHTML + `<div class="box">${numero}</div>`;
+//     contentitore.innerHTML += `<div class="box">${numero}</div>`;
+
+//     const nuovoElementoInLista = document.createElement('li'); //Creo un list-item
+//     nuovoElementoInLista.append(numero); //Append il numero al list-item
+//     ul.append(nuovoElementoInLista); //Append il list-item alla unordered list
+    
+// }
