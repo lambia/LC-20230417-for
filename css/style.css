@@ -1,0 +1,32 @@
+body {
+    background-color: #222;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.rosso { /* oppure direttamente .Fizz */
+    background: crimson;
+}
+.verde { /* oppure direttamente .Buzz */
+    background: greenyellow;
+}
+.blu { /* oppure direttamente .FizzBuzz */
+    background: cadetblue;
+}
